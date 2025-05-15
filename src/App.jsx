@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from "/react.svg"
 import * as h from './components/Handle'
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+      <img src={logo} alt="logo" className='logo react' />
       <h1>React Calculator</h1>
       <h3>Created by RoMan</h3>
       <input 
